@@ -663,8 +663,8 @@ p {
     
  #topNav.scroll-menu ul li.active a{
 
-    
-    color: #fff !important;
+    border: 1px solid #6666ff;
+    border-bottom: #6666ff;
     border-radius: 30px;
     
         
