@@ -1077,7 +1077,7 @@ p {
 
     
   #contact .container-md{
-   
+    margin-top: 50px;
      width: 600px;
      height: 600px;
      background: #fff;
@@ -1202,7 +1202,7 @@ p {
         text-align: center;
         background: #fff;
         border-radius: 20px;
-        height: 600px;
+        height: 550px;
         box-shadow: 0px 10px 30px rgba(57,56, 61, 0.205);
         display: flex;
         
@@ -1217,6 +1217,14 @@ p {
         border-right: 1px solid #e2e2e2;
         /* margin-left: 10px;
         margin-right: 10px; */
+    }
+
+    #projects h2 {
+        padding-top: 300px;
+    }
+
+    #contact .container-md {
+        margin-top: 80px;
     }
 
 } 
