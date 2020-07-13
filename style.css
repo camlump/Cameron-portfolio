@@ -1197,7 +1197,24 @@ p {
 
 }
 
- @media(max-width: 1444px) {
+ /* @media(max-width: 1444px) {
+
+    #about:before{
+        position: absolute;
+        content:  '';
+        width: 100%;
+        height: 150px;
+        top: px;
+        right: 0;
+        margin: 0;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        background: #fff; 
+        
+        
+        z-index: -1;
+     
+    } 
     #skills .container {
         text-align: center;
         background: #fff;
@@ -1225,6 +1242,6 @@ p {
 
     #contact .container-md {
         margin-top: 80px;
-    } 
+    }  */
 
 } 
