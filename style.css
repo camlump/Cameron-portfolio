@@ -834,7 +834,7 @@ p {
         color: #111;
     }
 
-     #about:before{
+     /* #about:before{
         position: absolute;
         content:  '';
         width: 100%;
@@ -849,7 +849,7 @@ p {
         
         z-index: -1;
      
-    } 
+    }  */
 
     
     
