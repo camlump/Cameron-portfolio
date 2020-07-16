@@ -348,6 +348,20 @@
     $(this).addClass('active').siblings().removeClass('active')
 })
 
+let lastId,
+
+ topMenu = $('#topNav');
+
+ topMenuHeight = topMenu.outerHeight()+1;
+
+ menuitems = topMenu.find('a');
+
+ scrollItems = menuitems.map(function(){
+   let item = $($(this).attr("href"));
+   if (item.lenth) { return item; }
+ })
+
+
 
 
 </script>

@@ -588,7 +588,7 @@ p {
 
 
 
- @media(min-width: 700px) {
+ @media(min-width: 800px) {
     .grid {
         display: grid;
         grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
@@ -870,7 +870,7 @@ p {
 
     #skills {
         
-      display: flex;
+      
       justify-content: space-around;
        height: 50vh;
        
@@ -898,12 +898,15 @@ p {
     }
 
     #skills .container {
+        max-width: 1200px;
         text-align: center;
         background: #fff;
         border-radius: 20px;
         height: 70vh;
         box-shadow: 0px 10px 30px rgba(57,56, 61, 0.205);
         display: flex;
+        /* -webkit-box-flex: 1;
+        flex-grow: 1; */
         
     }
 
