@@ -898,9 +898,10 @@ p {
         font-weight: 300;
     }
 
-    #skills .container {
+    #skills .content-wrap .container {
         max-width: 1200px;
-        min-height: 30vh;
+        height: 90vh !important;
+        min-height: 70vh;
         text-align: center;
         background: #fff;
         border-radius: 20px;
@@ -913,6 +914,7 @@ p {
     }
 
     #skills .container .column {
+       
         display: block;
         padding-left: 15px;
         padding-right: 15px;
