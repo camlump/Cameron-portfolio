@@ -588,7 +588,7 @@ p {
 
 
 
- @media(min-width: 70vh) {
+ @media(min-width: 700px) {
     .grid {
         display: grid;
         grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
@@ -872,7 +872,8 @@ p {
         
       
       justify-content: space-around;
-       height: 70vh;
+      height: 30vh;
+       min-height: 70vh;
        
        background: #090a0f; 
        
@@ -899,6 +900,7 @@ p {
 
     #skills .container {
         max-width: 1200px;
+        min-height: 30vh;
         text-align: center;
         background: #fff;
         border-radius: 20px;
@@ -1237,14 +1239,4 @@ p {
         border-right: 1px solid #e2e2e2;
         /* margin-left: 10px;
         margin-right: 10px; */
-    }
-
-    #projects h2 {
-        padding-top: 300px;
-    }
-
-    #contact .container-md {
-        margin-top: 80px;
-    }  */
-
-} 
+  
