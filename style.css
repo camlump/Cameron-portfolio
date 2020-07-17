@@ -588,7 +588,7 @@ p {
 
 
 
- @media(min-width: 800px) {
+ @media(min-width: 70vh) {
     .grid {
         display: grid;
         grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
