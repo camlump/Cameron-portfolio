@@ -13,17 +13,17 @@
     <script src="main.js"></script>
     
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="0">
     <header id="landing" class="grid">
-      <nav id="topNav" class="navbar navbar-expand-lg navbar-light ">
+      <nav id="topNav" class="navbar navbar-expand-lg navbar-light stick-top">
         <a class="navbar-brand" href="#landing"><img id="brandLogo" src="project-images/portfolio logo2.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+            <li class="nav-item ">
+              <a class="nav-link active" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#skills">skills</a>
@@ -38,21 +38,7 @@
           </ul>
         </div>
       </nav>
-    <!-- <nav id="topNav" class="navbar navbar-expand-lg ">
-        <a class="navbar-brand" href="#landing"><img id="brandLogo" src="project-images/camlogo.png" alt=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="#about">About <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#skills">Skills</a>
-            <a class="nav-item nav-link" href="#projects">Projects</a>
-            <a class="nav-item nav-link" href="#contact">Contact</a>
-            
-          </div>
-        </div>
-      </nav> -->
+   
     <!--Header Landing -->
 
     <div class="bg-image"></div>
@@ -348,18 +334,18 @@
     $(this).addClass('active').siblings().removeClass('active')
 })
 
-let lastId,
+// let lastId,
 
- topMenu = $('#topNav');
+//  topMenu = $('#topNav');
 
- topMenuHeight = topMenu.outerHeight()+1;
+//  topMenuHeight = topMenu.outerHeight()+1;
 
- menuitems = topMenu.find('a');
+//  menuitems = topMenu.find('a');
 
- scrollItems = menuitems.map(function(){
-   let item = $($(this).attr("href"));
-   if (item.lenth) { return item; }
- })
+//  scrollItems = menuitems.map(function(){
+//    let item = $($(this).attr("href"));
+//    if (item.lenth) { return item; }
+//  })
 
 
 

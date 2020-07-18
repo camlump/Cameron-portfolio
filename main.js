@@ -9,6 +9,8 @@ window.addEventListener("scroll", function(){
 
 });
 
+$('body').scrollspy({ target: '#topNav' })
+
 
 $(window).scroll(function(){
     let position = $(this).scrollTop();

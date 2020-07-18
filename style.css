@@ -106,7 +106,7 @@ p {
 }
 
 .navbar .navbar-nav a{
-    color: #1a75ff !important;
+    color: #6666ff !important;
     font-size: 20px !important;
     margin: 16px;
     padding: 0 4px;
@@ -193,6 +193,7 @@ p {
     padding-right: 15px;
     padding-bottom: 0;
     background: -webkit-linear-gradient(#e6e6ff, #6666ff);
+    background-clip: text;
     -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
 }
@@ -618,9 +619,11 @@ p {
     }
 
     .navbar .navbar-nav a{
-        background: -webkit-linear-gradient(#e6e6ff, #6666ff);
+        /* background: -webkit-linear-gradient(#e6e6ff, #6666ff);
+        background-clip: text;
        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        -webkit-text-fill-color: transparent; */
+        color: #6666ff;
         font-size: 20px !important;
         margin: 10px;
         padding: 10px 30px;
@@ -629,37 +632,27 @@ p {
     }
 
     .navbar .navbar-nav a:hover {
-        background: -webkit-linear-gradient(#e6e6ff, #fff);
+        background: -webkit-linear-gradient(#b366ff, #e2e2e2);
+        background-clip: text;
         -webkit-background-clip: text;
          -webkit-text-fill-color: transparent;
         /* color: #1b2735 !important;
         border-radius: 30px; */
     }
 
+    .navbar .navbar-nav  .nav-item .nav-link.active {
+        
+        background: #e6e6ff;
+        border-radius: 10px;
+
+    }
+
     .nav-item{
         background: transparent !important;
     }
-   
-/* 
-    .active a{
-        background-color: #ffd000  !important;
-        color: #1a75ff !important;
-        border-radius: 10px;
-
-    } */
-
-    
-    
-    /* .navbar .navbar-nav a:hover {
-        background-color: #ffd000  !important;
-        color: #1a75ff !important;
-        border-radius: 10px;
-    } */
 
    
-
     
-
     #topNav.scroll-menu {
         background: #090a0f;
         border-bottom: 0.5px solid #b3b3ff;
@@ -669,21 +662,14 @@ p {
 
 
     #topNav.scroll-menu a {
-      color: #0f1f3d !important;
+      color: #6666ff;
       transition: 0.6s ease-in-out;
     }
-    
- #topNav.scroll-menu ul li.active a{
-
-    border: 1px solid #6666ff;
-    border-bottom: #6666ff;
-    border-radius: 30px;
-    
-        
-    } 
+     
+  
     
     #topNav.scroll-menu a:hover{
-        color: #fff;
+        color: #1b2735;
             
     }
 
@@ -709,7 +695,7 @@ p {
     }    */
 
     #landing {
-        height: 120vh;
+        height: 100vh;
        text-align: center;
       
        
@@ -730,6 +716,7 @@ p {
         font-size: 70px;
         padding-top: 300px;
         background: -webkit-linear-gradient(#e6e6ff, #6666ff);
+        background-clip: text;
        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 
@@ -744,6 +731,7 @@ p {
         font-family: 'Roboto'; 
         font-size: 24px;
         background: -webkit-linear-gradient(#fff, #777);
+        background-clip: text;
        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 
