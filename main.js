@@ -1,7 +1,7 @@
 window.addEventListener("scroll", function(){
     let topNav = document.getElementById("topNav");
 
-    if(window.pageYOffset >  750) {
+    if(window.pageYOffset >  650) {
         topNav.classList.add("scroll-menu");
     } else {
         topNav.classList.remove("scroll-menu")
