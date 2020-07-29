@@ -1,9 +1,10 @@
 window.addEventListener("scroll", function(){
     let topNav = document.getElementById("topNav");
+    let fadeContent = document.getElementById('content-fade')
 
     if(window.pageYOffset >  650) {
         topNav.classList.add("scroll-menu");
-    } else {
+    }else {
         topNav.classList.remove("scroll-menu")
     }
 
@@ -28,6 +29,11 @@ $(window).scroll(function(){
 
 
 });
+
+
+// let fadeContent = document.getElementById('content-fade');
+
+
 
 
 
